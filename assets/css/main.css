@@ -26,10 +26,6 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 	scroll-behavior: smooth;}
 
-#down {
-	margin-top: 100%;
-	padding-bottom: 25%;}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}

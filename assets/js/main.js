@@ -115,3 +115,17 @@
 			});
 
 })(jQuery);
+
+// Adding show more button in global scope for story expansion
+
+$(document).ready(function(){
+	$("#reveal").hide();
+	$("#see_more").click(function(){
+		$("#reveal").slideToggle(300);
+		if($("#see_more").text() == "Click to see my story"){
+			$("#see_more").text("Show Less");         
+		} else {
+			$("#see_more").text("Click to see my story");
+		}
+	});
+});
