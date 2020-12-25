@@ -120,12 +120,21 @@
 
 $(document).ready(function(){
 	$("#reveal").hide();
+	$("#project-reveal").hide();
 	$("#see_more").click(function(){
 		$("#reveal").slideToggle(300);
-		if($("#see_more").text() == "Click to see my story"){
+		if($("#see_more").text() == "My Story"){
 			$("#see_more").text("Show Less");         
 		} else {
-			$("#see_more").text("Click to see my story");
+			$("#see_more").text("My Story");
+		}
+	});
+	$("#project_show_more").click(function(){
+		$("#project-reveal").slideToggle(300);
+		if($("#project_show_more").text() == "Show More"){
+			$("#project_show_more").text("Show Less");         
+		} else {
+			$("#project_show_more").text("Show More");
 		}
 	});
 });
