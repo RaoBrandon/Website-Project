@@ -1,4 +1,4 @@
-# My personal website project! #
+# My personal website project!
 
 This repository contains the required files to host my personal website on GitHub Pages!
 
