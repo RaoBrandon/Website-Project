@@ -124,10 +124,10 @@ $(document).ready(function(){
 	$("#project-reveal").hide();
 	$("#see_more").click(function(){
 		$("#reveal").slideToggle(300);
-		if($("#see_more").text() == "My Story"){
+		if($("#see_more").text() == "Click To Read My Story"){
 			$("#see_more").text("Show Less");         
 		} else {
-			$("#see_more").text("My Story");
+			$("#see_more").text("Click To Read My Story");
 		}
 	});
 	$("#project_show_more").click(function(){
